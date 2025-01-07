@@ -1,0 +1,6 @@
+@pathTraversalVulnerableApi_HostAddress = http://localhost:5082
+
+GET {{pathTraversalVulnerableApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
